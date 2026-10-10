@@ -68,7 +68,7 @@ if (!agreeTerms) {
       setSuccess("Registration successful!");
       
       
-        navigate('/profile');
+        navigate('/');
       
 
     }catch (error) {

@@ -38,7 +38,7 @@ const Login = () => {
       await api.post("/login", { email, password })
       setSuccess("Login successful! Redirecting...");
       
-        navigate("/profile");
+        navigate("/");
       
 
 
