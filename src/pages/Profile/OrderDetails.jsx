@@ -348,7 +348,7 @@ const OrderDetails = () => {
                     </div>
                          <div 
                       className="col-span-2  cursor-pointer rounded-xl border border-[#E2E8F0] bg-[#F0FDFA] px-4 py-3 text-center text-sm font-semibold text-[#0F766E] transition hover:bg-[#E6FFFA]"
-                        onClick={() => navigate(`/my/${product?._id}`)}    
+                        onClick={() => navigate(`/products/${product?._id}`)}    
                       >View Product</div>
                   </div>
 
