@@ -40,9 +40,10 @@ const Profile =  () => {
             });
            
         } catch (error) {
-            if(error.message === 'Request failed with status code 401'){
-                navigate("/login");
-            }
+             if (error.response?.status === 401) {
+    navigate("/login", { replace: true });
+    return;
+  }
                 
             console.error("Error fetching user data:", error.message);
         }
