@@ -123,6 +123,7 @@ const SellerOrderDetails = () => {
       navigate("/profile");
     } catch (error) {
       console.error("Delete order error:", error);
+      
 
       alert(
         error.response?.data?.message ||
